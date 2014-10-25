@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->  
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<title>Cancer cases in Switzerland from 1984 to 2008</title>
+	<meta name="description" content="Cancer cases in Switzerland from 1984 to 2008">
+	<meta name="author" content="Lukas">
+	<meta name="generator" content="slidify" />
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=1024, user-scalable=no">
+	
+	<!-- Required stylesheet -->
+	<link rel="stylesheet" href="libraries/frameworks/deckjs/core/deck.core.css">
+	<link rel="stylesheet" href="libraries/frameworks/deckjs/extensions/goto/deck.goto.css">
+<link rel="stylesheet" href="libraries/frameworks/deckjs/extensions/hash/deck.hash.css">
+<link rel="stylesheet" href="libraries/frameworks/deckjs/extensions/menu/deck.menu.css">
+<link rel="stylesheet" href="libraries/frameworks/deckjs/extensions/navigation/deck.navigation.css">
+<link rel="stylesheet" href="libraries/frameworks/deckjs/extensions/scale/deck.scale.css">
+<link rel="stylesheet" href="libraries/frameworks/deckjs/extensions/status/deck.status.css">
+<!-- Style theme. More available in /themes/style/  -->
+	<link rel="stylesheet" href="libraries/frameworks/deckjs/themes/style/swiss.css">
+	
+	<!-- Transition theme. More available in /themes/transition/  -->
+	<link rel="stylesheet" href="libraries/frameworks/deckjs/themes/transition/horizontal-slide.css">
+	<script src="libraries/frameworks/deckjs/modernizr.custom.js"></script>
+	
+	<!-- LOAD STYLE SHEETS -->
+	<link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css">
+	
+	  <link rel="stylesheet" href = "libraries/widgets/bootstrap/css/bootstrap.css">
+<link rel="stylesheet" href = "assets/css/ribbons.css">
+
+</head>
+
+<body class="deck-container">
+
+  <!-- Begin slides -->
+  <section class="slide " id="slide-1">
+  <h1>Cancer in Switzerland from 1984 to 2008</h1>
+  <h3>Course project of the coursera class &quot;<a href="https://class.coursera.org/devdataprod-006">Developing Data Products</a>&quot;</h3>
+
+<p>Incidence number and average annual rate per 100 000 persons</p>
+
+<p>Visualized with <a href="http://shiny.rstudio.com/">Shiny</a>: <a href="https://ijon.shinyapps.io/shiny/">https://ijon.shinyapps.io/shiny/</a></p>
+
+</section>
+<section class="slide " id="slide-2">
+  <h2>Displays development of cancer frequencies from 1984 to 2008</h2>
+  <ul>
+<li>displays either
+
+<ul>
+<li>cancer incidence <strong>number</strong>:<br>
+absolute number within given period (e.g. 1984 to 1988)</li>
+<li>cancer indicence <strong>rate</strong>:<br>
+average annual number of new cancer cases per 100 000 persons in a given period</li>
+</ul></li>
+<li>select type of cancer, for example: 
+
+<ul>
+<li>Liver</li>
+<li>Eye</li>
+<li>or total number, summarized over all types of cancer</li>
+</ul></li>
+<li>select sex: display results
+
+<ul>
+<li>only for women</li>
+<li>only for men</li>
+<li>or for both</li>
+</ul></li>
+</ul>
+
+<p>Results are displayed as a stacked bar graph:<br>
+one bar for each 5-year period between 1984 and 2008.</p>
+
+</section>
+<section class="slide class" id="id">
+  <h2>Data source: Cancer epidemiology of the Swiss Federal Statistical Office</h2>
+  <ul>
+<li><a href="http://www.bfs.admin.ch/bfs/portal/en/index/infothek/erhebungen__quellen/blank/blank/kbs/01.html">Cancer epidemiology of the Swiss Federal Statistical Office</a></li>
+<li>Get the data <a href="http://www.pxweb.bfs.admin.ch/dialog/varval.asp?ma=px-d-14-2B11&amp;ti=Krebs%3A+Anzahl+und+j%E4hrliche+Rate+der+Neuerkrankungen+und+Todesf%E4lle+nach+Altersgruppe%2C+Geschlecht%2C+Region+und+Krebslokalisation%2C+1984%2D2008&amp;path=../Database/German_14%20-%20Gesundheit/14.2%20-%20Gesundheit%20der%20Bev%F6lkerung/&amp;search=KREBS&amp;lang=1">here</a></li>
+</ul>
+
+</section>
+<section class="slide class" id="id">
+  <h2>Server side calculations:</h2>
+  <p>Preparation: <strong>load, clean, calculate percentage</strong><br>
+For each page reload: <strong>select rows, and display with ggplot2</strong></p>
+
+<h3>Data preparation</h3>
+
+<ul>
+<li>load the data from a csv file</li>
+<li>remove rows with no data</li>
+<li>change empty cells of sex-specific cancer types (e.g. Testicle cancer for women) from NA to 0</li>
+<li>Calculate percentage of men and women for a given cancer type using package <code>ddplyr</code>.</li>
+</ul>
+
+<h3>Calculation during each page reload</h3>
+
+<ul>
+<li>select correct rows (depending on cancer type, sex)</li>
+<li>display correct variables: either incidence <em>number</em> or incidence <em>rate</em></li>
+<li>create a ggplot2 plot with correct axis, titles (see next slide)</li>
+</ul>
+
+</section>
+<section class="slide class" id="id">
+  <h2>Result</h2>
+  <p>Say the user chose: <em>Display incidence of all types of cancers for both men and women</em>:</p>
+
+<pre><code class="r">input &lt;- list(sex=&quot;both&quot;, cancer=&quot;All cancers&quot;)  # simulate Shiny input parameter
+ggplot(data=select.data(input), aes(x=Period, y=Incidence.num, fill=Sex, label=Inc.num.perc, ymax=40000)) + 
+  scale_fill_manual(values=colors) +  ylab(&quot;Incidence&quot;) +
+  theme(axis.title=element_text(size=20), axis.text=element_text(size=16), legend.title=element_text(size=20),
+    legend.text=element_text(size=16)) +
+  guides(fill=guide_legend(title=NULL)) + geom_bar(stat=&quot;identity&quot;) + geom_text(position=&quot;stack&quot;, vjust=2)
+</code></pre>
+
+<p><img src="assets/fig/unnamed-chunk-2.png" alt="plot of chunk unnamed-chunk-2"> </p>
+
+</section>
+</body>
+  <!-- deck.navigation snippet -->
+  <a href="#" class="deck-prev-link" title="Previous">&#8592;</a>
+  <a href="#" class="deck-next-link" title="Next">&#8594;</a>
+  
+  <!-- deck.status snippet -->
+  <p class="deck-status">
+  <span class="deck-status-current"></span>
+    /
+  <span class="deck-status-total"></span>
+  </p>
+  
+  <!-- deck.goto snippet -->
+  <form action="." method="get" class="goto-form">
+  	<label for="goto-slide">Go to slide:</label>
+  	<input type="text" name="slidenum" id="goto-slide" list="goto-datalist">
+  	<datalist id="goto-datalist"></datalist>
+  	<input type="submit" value="Go">
+  </form>
+  
+  <!-- deck.hash snippet -->
+  <a href="." title="Permalink to this slide" class="deck-permalink">#</a>
+  
+  
+  <!-- Grab CDN jQuery, with a protocol relative URL; fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/frameworks/deckjs/jquery-1.7.min.js"><\/script>')</script>
+  
+  <!-- Add Slide Class to Build Elements -->
+  <script type='text/javascript'>
+  $('ol.build li').addClass('slide')
+  $('ul.build li').addClass('slide')
+  </script>
+  
+  <!-- Deck Core and extensions -->
+  <script src="libraries/frameworks/deckjs/core/deck.core.js"></script>
+  <script src="libraries/frameworks/deckjs/extensions/goto/deck.goto.js"></script>
+<script src="libraries/frameworks/deckjs/extensions/hash/deck.hash.js"></script>
+<script src="libraries/frameworks/deckjs/extensions/menu/deck.menu.js"></script>
+<script src="libraries/frameworks/deckjs/extensions/navigation/deck.navigation.js"></script>
+<script src="libraries/frameworks/deckjs/extensions/scale/deck.scale.js"></script>
+<script src="libraries/frameworks/deckjs/extensions/status/deck.status.js"></script>
+<!-- Initialize the deck -->
+  <script>
+  $(function() {
+  	$.deck('.slide');
+  });
+  </script>  <script>  
+$(function (){ 
+  $("#example").popover(); 
+  $("[rel='tooltip']").tooltip(); 
+});  
+</script>  
+<!-- LOAD HIGHLIGHTER JS FILES -->
+<script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<!-- DONE LOADING HIGHLIGHTER JS FILES -->
+ 
+
+</html>

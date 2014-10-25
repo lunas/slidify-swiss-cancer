@@ -1,0 +1,469 @@
+Cancer,Sex,Period,Incidence.num,Incidence.rate,Mort.num,Mort.rate
+Cancer.total,,,,,,
+Cancer.total,Men,,,,,
+Cancer.total,Men,1984-1988,14018,441.7,8814,277.8
+Cancer.total,Men,1989-1993,15154,456.8,9141,275.5
+Cancer.total,Men,1994-1998,16549,479.9,8522,247.2
+Cancer.total,Men,1999-2003,18232,515.7,8506,240.6
+Cancer.total,Men,2004-2008,19869,540.4,8681,236.1
+Cancer.total,Women,,,,,
+Cancer.total,Women,1984-1988,12286,368.1,6999,209.7
+Cancer.total,Women,1989-1993,13068,375.8,7272,209.1
+Cancer.total,Women,1994-1998,14389,398.3,6853,189.7
+Cancer.total,Women,1999-2003,15671,423.5,6813,184.1
+Cancer.total,Women,2004-2008,16746,437.7,7013,183.3
+Oral cavity and throat,,,,,,
+Oral cavity and throat,Men,,,,,
+Oral cavity and throat,Men,1984-1988,598,18.8,296,9.3
+Oral cavity and throat,Men,1989-1993,647,19.5,301,9.1
+Oral cavity and throat,Men,1994-1998,668,19.4,261,7.6
+Oral cavity and throat,Men,1999-2003,652,18.4,265,7.5
+Oral cavity and throat,Men,2004-2008,742,20.2,272,7.4
+Oral cavity and throat,Women,,,,,
+Oral cavity and throat,Women,1984-1988,164,4.9,76,2.3
+Oral cavity and throat,Women,1989-1993,216,6.2,85,2.5
+Oral cavity and throat,Women,1994-1998,243,6.7,79,2.2
+Oral cavity and throat,Women,1999-2003,274,7.4,91,2.5
+Oral cavity and throat,Women,2004-2008,308,8,93,2.4
+Esophagus,,,,,,
+Esophagus,Men,,,,,
+Esophagus,Men,1984-1988,233,7.4,269,8.5
+Esophagus,Men,1989-1993,259,7.8,274,8.2
+Esophagus,Men,1994-1998,299,8.7,269,7.8
+Esophagus,Men,1999-2003,346,9.8,292,8.3
+Esophagus,Men,2004-2008,371,10.1,306,8.3
+Esophagus,Women,,,,,
+Esophagus,Women,1984-1988,73,2.2,72,2.2
+Esophagus,Women,1989-1993,92,2.7,84,2.4
+Esophagus,Women,1994-1998,104,2.9,89,2.5
+Esophagus,Women,1999-2003,116,3.1,96,2.6
+Esophagus,Women,2004-2008,128,3.3,100,2.6
+Stomach,,,,,,
+Stomach,Men,,,,,
+Stomach,Men,1984-1988,678,21.4,569,17.9
+Stomach,Men,1989-1993,616,18.6,508,15.3
+Stomach,Men,1994-1998,589,17.1,410,11.9
+Stomach,Men,1999-2003,535,15.1,347,9.8
+Stomach,Men,2004-2008,466,12.7,309,8.4
+Stomach,Women,,,,,
+Stomach,Women,1984-1988,455,13.6,445,13.3
+Stomach,Women,1989-1993,421,12.1,360,10.4
+Stomach,Women,1994-1998,385,10.6,285,7.9
+Stomach,Women,1999-2003,319,8.6,234,6.3
+Stomach,Women,2004-2008,321,8.4,222,5.8
+Small intestine,,,,,,
+Small intestine,Men,,,,,
+Small intestine,Men,1984-1988,60,1.9,22,0.7
+Small intestine,Men,1989-1993,72,2.2,24,0.7
+Small intestine,Men,1994-1998,65,1.9,20,0.6
+Small intestine,Men,1999-2003,85,2.4,26,0.7
+Small intestine,Men,2004-2008,84,2.3,28,0.8
+Small intestine,Women,,,,,
+Small intestine,Women,1984-1988,45,1.4,19,0.6
+Small intestine,Women,1989-1993,49,1.4,19,0.6
+Small intestine,Women,1994-1998,54,1.5,19,0.5
+Small intestine,Women,1999-2003,67,1.8,19,0.5
+Small intestine,Women,2004-2008,57,1.5,21,0.6
+Colon,,,,,,
+Colon,Men,,,,,
+Colon,Men,1984-1988,1683,53,963,30.3
+Colon,Men,1989-1993,1754,52.9,980,29.5
+Colon,Men,1994-1998,1891,54.8,875,25.4
+Colon,Men,1999-2003,2109,59.6,848,24
+Colon,Men,2004-2008,2253,61.3,874,23.8
+Colon,Women,,,,,
+Colon,Women,1984-1988,1529,45.8,915,27.4
+Colon,Women,1989-1993,1565,45,897,25.8
+Colon,Women,1994-1998,1648,45.6,792,21.9
+Colon,Women,1999-2003,1767,47.8,770,20.8
+Colon,Women,2004-2008,1820,47.6,729,19
+Anus,,,,,,
+Anus,Men,,,,,
+Anus,Men,1984-1988,29,0.9,9,0.3
+Anus,Men,1989-1993,34,1,12,0.4
+Anus,Men,1994-1998,31,0.9,9,0.3
+Anus,Men,1999-2003,41,1.2,9,0.3
+Anus,Men,2004-2008,47,1.3,10,0.3
+Anus,Women,,,,,
+Anus,Women,1984-1988,71,2.1,18,0.5
+Anus,Women,1989-1993,74,2.1,21,0.6
+Anus,Women,1994-1998,91,2.5,19,0.5
+Anus,Women,1999-2003,95,2.6,21,0.6
+Anus,Women,2004-2008,123,3.2,23,0.6
+Liver,,,,,,
+Liver,Men,,,,,
+Liver,Men,1984-1988,307,9.7,251,7.9
+Liver,Men,1989-1993,327,9.8,283,8.5
+Liver,Men,1994-1998,382,11.1,323,9.4
+Liver,Men,1999-2003,439,12.4,357,10.1
+Liver,Men,2004-2008,489,13.3,410,11.2
+Liver,Women,,,,,
+Liver,Women,1984-1988,102,3.1,98,2.9
+Liver,Women,1989-1993,102,2.9,116,3.3
+Liver,Women,1994-1998,123,3.4,133,3.7
+Liver,Women,1999-2003,146,4,148,4
+Liver,Women,2004-2008,157,4.1,180,4.7
+Gall and extrahepatitic biliary tract,,,,,,
+Gall and extrahepatitic biliary tract,Men,,,,,
+Gall and extrahepatitic biliary tract,Men,1984-1988,105,3.3,81,2.6
+Gall and extrahepatitic biliary tract,Men,1989-1993,107,3.2,84,2.5
+Gall and extrahepatitic biliary tract,Men,1994-1998,110,3.2,76,2.2
+Gall and extrahepatitic biliary tract,Men,1999-2003,104,2.9,67,1.9
+Gall and extrahepatitic biliary tract,Men,2004-2008,137,3.7,66,1.8
+Gall and extrahepatitic biliary tract,Women,,,,,
+Gall and extrahepatitic biliary tract,Women,1984-1988,206,6.2,189,5.7
+Gall and extrahepatitic biliary tract,Women,1989-1993,213,6.1,182,5.2
+Gall and extrahepatitic biliary tract,Women,1994-1998,195,5.4,154,4.3
+Gall and extrahepatitic biliary tract,Women,1999-2003,191,5.2,132,3.6
+Gall and extrahepatitic biliary tract,Women,2004-2008,183,4.8,117,3.1
+Pancreas,,,,,,
+Pancreas,Men,,,,,
+Pancreas,Men,1984-1988,393,12.4,383,12.1
+Pancreas,Men,1989-1993,404,12.2,426,12.8
+Pancreas,Men,1994-1998,431,12.5,399,11.6
+Pancreas,Men,1999-2003,460,13,436,12.3
+Pancreas,Men,2004-2008,493,13.4,463,12.6
+Pancreas,Women,,,,,
+Pancreas,Women,1984-1988,423,12.7,389,11.6
+Pancreas,Women,1989-1993,429,12.3,424,12.2
+Pancreas,Women,1994-1998,429,11.9,428,11.8
+Pancreas,Women,1999-2003,468,12.6,462,12.5
+Pancreas,Women,2004-2008,541,14.2,507,13.3
+Larynx,,,,,,
+Larynx,Men,,,,,
+Larynx,Men,1984-1988,235,7.4,113,3.6
+Larynx,Men,1989-1993,222,6.7,108,3.3
+Larynx,Men,1994-1998,231,6.7,79,2.3
+Larynx,Men,1999-2003,246,6.9,80,2.3
+Larynx,Men,2004-2008,237,6.5,77,2.1
+Larynx,Women,,,,,
+Larynx,Women,1984-1988,29,0.9,10,0.3
+Larynx,Women,1989-1993,28,0.8,15,0.4
+Larynx,Women,1994-1998,37,1,11,0.3
+Larynx,Women,1999-2003,41,1.1,13,0.4
+Larynx,Women,2004-2008,32,0.8,10,0.3
+"Lung, Bronchia,air tube",,,,,,
+"Lung, Bronchia,air tube",Men,,,,,
+"Lung, Bronchia,air tube",Men,1984-1988,2516,79.3,2271,71.6
+"Lung, Bronchia,air tube",Men,1989-1993,2477,74.7,2236,67.4
+"Lung, Bronchia,air tube",Men,1994-1998,2387,69.2,2010,58.3
+"Lung, Bronchia,air tube",Men,1999-2003,2409,68.1,1983,56.1
+"Lung, Bronchia,air tube",Men,2004-2008,2474,67.3,2008,54.6
+"Lung, Bronchia,air tube",Women,,,,,
+"Lung, Bronchia,air tube",Women,1984-1988,590,17.7,399,11.9
+"Lung, Bronchia,air tube",Women,1989-1993,712,20.5,514,14.8
+"Lung, Bronchia,air tube",Women,1994-1998,843,23.3,611,16.9
+"Lung, Bronchia,air tube",Women,1999-2003,1071,29,765,20.7
+"Lung, Bronchia,air tube",Women,2004-2008,1324,34.6,933,24.4
+Pleura,,,,,,
+Pleura,Men,,,,,
+Pleura,Men,1984-1988,59,1.9,66,2.1
+Pleura,Men,1989-1993,77,2.3,83,2.5
+Pleura,Men,1994-1998,104,3,72,2.1
+Pleura,Men,1999-2003,117,3.3,74,2.1
+Pleura,Men,2004-2008,148,4,97,2.6
+Pleura,Women,,,,,
+Pleura,Women,1984-1988,9,0.3,20,0.6
+Pleura,Women,1989-1993,13,0.4,21,0.6
+Pleura,Women,1994-1998,18,0.5,17,0.5
+Pleura,Women,1999-2003,19,0.5,15,0.4
+Pleura,Women,2004-2008,25,0.7,15,0.4
+"Bones, joints, cartilage",,,,,,
+"Bones, joints, cartilage",Men,,,,,
+"Bones, joints, cartilage",Men,1984-1988,43,1.3,16,0.5
+"Bones, joints, cartilage",Men,1989-1993,39,1.2,20,0.6
+"Bones, joints, cartilage",Men,1994-1998,38,1.1,18,0.5
+"Bones, joints, cartilage",Men,1999-2003,41,1.2,21,0.6
+"Bones, joints, cartilage",Men,2004-2008,41,1.1,20,0.5
+"Bones, joints, cartilage",Women,,,,,
+"Bones, joints, cartilage",Women,1984-1988,28,0.8,15,0.4
+"Bones, joints, cartilage",Women,1989-1993,35,1,12,0.3
+"Bones, joints, cartilage",Women,1994-1998,27,0.7,16,0.4
+"Bones, joints, cartilage",Women,1999-2003,32,0.9,19,0.5
+"Bones, joints, cartilage",Women,2004-2008,29,0.8,12,0.3
+Skin melanoma,,,,,,
+Skin melanoma,Men,,,,,
+Skin melanoma,Men,1984-1988,422,13.3,109,3.4
+Skin melanoma,Men,1989-1993,508,15.3,133,4
+Skin melanoma,Men,1994-1998,640,18.6,138,4
+Skin melanoma,Men,1999-2003,823,23.3,132,3.7
+Skin melanoma,Men,2004-2008,1002,27.3,164,4.5
+Skin melanoma,Women,,,,,
+Skin melanoma,Women,1984-1988,506,15.2,100,3
+Skin melanoma,Women,1989-1993,577,16.6,109,3.1
+Skin melanoma,Women,1994-1998,680,18.8,100,2.8
+Skin melanoma,Women,1999-2003,849,22.9,101,2.7
+Skin melanoma,Women,2004-2008,980,25.6,121,3.2
+Connective tissue,,,,,,
+Connective tissue,Men,,,,,
+Connective tissue,Men,1984-1988,90,2.8,35,1.1
+Connective tissue,Men,1989-1993,89,2.7,31,0.9
+Connective tissue,Men,1994-1998,108,3.1,39,1.1
+Connective tissue,Men,1999-2003,108,3.1,46,1.3
+Connective tissue,Men,2004-2008,100,2.7,53,1.4
+Connective tissue,Women,,,,,
+Connective tissue,Women,1984-1988,78,2.3,36,1.1
+Connective tissue,Women,1989-1993,95,2.7,29,0.8
+Connective tissue,Women,1994-1998,91,2.5,45,1.2
+Connective tissue,Women,1999-2003,88,2.4,48,1.3
+Connective tissue,Women,2004-2008,91,2.4,47,1.2
+Breast,,,,,,
+Breast,Men,,,,,
+Breast,Men,1984-1988,27,0.8,8,0.3
+Breast,Men,1989-1993,24,0.7,12,0.4
+Breast,Men,1994-1998,32,0.9,12,0.4
+Breast,Men,1999-2003,36,1,9,0.2
+Breast,Men,2004-2008,38,1,8,0.2
+Breast,Women,,,,,
+Breast,Women,1984-1988,3599,107.8,1599,47.9
+Breast,Women,1989-1993,3907,112.4,1660,47.7
+Breast,Women,1994-1998,4514,124.9,1466,40.6
+Breast,Women,1999-2003,5126,138.5,1330,36
+Breast,Women,2004-2008,5342,139.6,1331,34.8
+Cervix,,,,,,
+Cervix,Men,,,,,
+Cervix,Men,1984-1988,*,*,*,*
+Cervix,Men,1989-1993,*,*,*,*
+Cervix,Men,1994-1998,*,*,*,*
+Cervix,Men,1999-2003,*,*,*,*
+Cervix,Men,2004-2008,*,*,*,*
+Cervix,Women,,,,,
+Cervix,Women,1984-1988,396,11.9,179,5.4
+Cervix,Women,1989-1993,361,10.4,162,4.7
+Cervix,Women,1994-1998,356,9.9,114,3.2
+Cervix,Women,1999-2003,294,7.9,87,2.4
+Cervix,Women,2004-2008,244,6.4,88,2.3
+Womb,,,,,,
+Womb,Men,,,,,
+Womb,Men,1984-1988,*,*,*,*
+Womb,Men,1989-1993,*,*,*,*
+Womb,Men,1994-1998,*,*,*,*
+Womb,Men,1999-2003,*,*,*,*
+Womb,Men,2004-2008,*,*,*,*
+Womb,Women,,,,,
+Womb,Women,1984-1988,809,24.3,270,8.1
+Womb,Women,1989-1993,785,22.6,280,8.1
+Womb,Women,1994-1998,843,23.3,211,5.8
+Womb,Women,1999-2003,875,23.6,205,5.5
+Womb,Women,2004-2008,901,23.5,210,5.5
+Ovary,,,,,,
+Ovary,Men,,,,,
+Ovary,Men,1984-1988,*,*,*,*
+Ovary,Men,1989-1993,*,*,*,*
+Ovary,Men,1994-1998,*,*,*,*
+Ovary,Men,1999-2003,*,*,*,*
+Ovary,Men,2004-2008,*,*,*,*
+Ovary,Women,,,,,
+Ovary,Women,1984-1988,574,17.2,434,13
+Ovary,Women,1989-1993,592,17,458,13.2
+Ovary,Women,1994-1998,607,16.8,402,11.1
+Ovary,Women,1999-2003,567,15.3,410,11.1
+Ovary,Women,2004-2008,586,15.3,430,11.2
+Prostate,,,,,,
+Prostate,Men,,,,,
+Prostate,Men,1984-1988,2744,86.5,1282,40.4
+Prostate,Men,1989-1993,3361,101.3,1449,43.7
+Prostate,Men,1994-1998,4214,122.2,1333,38.7
+Prostate,Men,1999-2003,5261,148.8,1313,37.1
+Prostate,Men,2004-2008,5893,160.3,1284,34.9
+Prostate,Women,,,,,
+Prostate,Women,1984-1988,*,*,*,*
+Prostate,Women,1989-1993,*,*,*,*
+Prostate,Women,1994-1998,*,*,*,*
+Prostate,Women,1999-2003,*,*,*,*
+Prostate,Women,2004-2008,*,*,*,*
+Testicle,,,,,,
+Testicle,Men,,,,,
+Testicle,Men,1984-1988,317,10,30,1
+Testicle,Men,1989-1993,345,10.4,24,0.7
+Testicle,Men,1994-1998,357,10.4,14,0.4
+Testicle,Men,1999-2003,367,10.4,17,0.5
+Testicle,Men,2004-2008,395,10.8,14,0.4
+Testicle,Women,,,,,
+Testicle,Women,1984-1988,*,*,*,*
+Testicle,Women,1989-1993,*,*,*,*
+Testicle,Women,1994-1998,*,*,*,*
+Testicle,Women,1999-2003,*,*,*,*
+Testicle,Women,2004-2008,*,*,*,*
+Kidney,,,,,,
+Kidney,Men,,,,,
+Kidney,Men,1984-1988,388,12.2,218,6.9
+Kidney,Men,1989-1993,435,13.1,217,6.6
+Kidney,Men,1994-1998,432,12.5,193,5.6
+Kidney,Men,1999-2003,472,13.4,192,5.4
+Kidney,Men,2004-2008,506,13.8,187,5.1
+Kidney,Women,,,,,
+Kidney,Women,1984-1988,234,7,143,4.3
+Kidney,Women,1989-1993,239,6.9,133,3.8
+Kidney,Women,1994-1998,252,7,131,3.6
+Kidney,Women,1999-2003,243,6.6,117,3.2
+Kidney,Women,2004-2008,266,6.9,119,3.1
+Bladder,,,,,,
+Bladder,Men,,,,,
+Bladder,Men,1984-1988,830,26.2,353,11.1
+Bladder,Men,1989-1993,899,27.1,382,11.5
+Bladder,Men,1994-1998,899,26.1,324,9.4
+Bladder,Men,1999-2003,806,22.8,298,8.4
+Bladder,Men,2004-2008,890,24.2,319,8.7
+Bladder,Women,,,,,
+Bladder,Women,1984-1988,272,8.1,146,4.4
+Bladder,Women,1989-1993,303,8.7,152,4.4
+Bladder,Women,1994-1998,317,8.8,149,4.1
+Bladder,Women,1999-2003,290,7.8,145,3.9
+Bladder,Women,2004-2008,280,7.3,152,4
+Urinary tract collection system,,,,,,
+Urinary tract collection system,Men,,,,,
+Urinary tract collection system,Men,1984-1988,84,2.7,22,0.7
+Urinary tract collection system,Men,1989-1993,84,2.5,34,1
+Urinary tract collection system,Men,1994-1998,83,2.4,33,1
+Urinary tract collection system,Men,1999-2003,91,2.6,49,1.4
+Urinary tract collection system,Men,2004-2008,96,2.6,63,1.7
+Urinary tract collection system,Women,,,,,
+Urinary tract collection system,Women,1984-1988,66,2,27,0.8
+Urinary tract collection system,Women,1989-1993,63,1.8,32,0.9
+Urinary tract collection system,Women,1994-1998,67,1.9,30,0.8
+Urinary tract collection system,Women,1999-2003,59,1.6,33,0.9
+Urinary tract collection system,Women,2004-2008,53,1.4,38,1
+Eye,,,,,,
+Eye,Men,,,,,
+Eye,Men,1984-1988,29,0.9,8,0.3
+Eye,Men,1989-1993,39,1.2,12,0.3
+Eye,Men,1994-1998,32,0.9,11,0.3
+Eye,Men,1999-2003,31,0.9,8,0.2
+Eye,Men,2004-2008,44,1.2,13,0.3
+Eye,Women,,,,,
+Eye,Women,1984-1988,36,1.1,12,0.4
+Eye,Women,1989-1993,34,1,17,0.5
+Eye,Women,1994-1998,30,0.8,8,0.2
+Eye,Women,1999-2003,30,0.8,9,0.2
+Eye,Women,2004-2008,27,0.7,11,0.3
+Brain and central nervous system,,,,,,
+Brain and central nervous system,Men,,,,,
+Brain and central nervous system,Men,1984-1988,252,8,196,6.2
+Brain and central nervous system,Men,1989-1993,247,7.4,194,5.8
+Brain and central nervous system,Men,1994-1998,272,7.9,224,6.5
+Brain and central nervous system,Men,1999-2003,298,8.4,231,6.5
+Brain and central nervous system,Men,2004-2008,311,8.4,257,7
+Brain and central nervous system,Women,,,,,
+Brain and central nervous system,Women,1984-1988,189,5.7,142,4.2
+Brain and central nervous system,Women,1989-1993,189,5.4,168,4.8
+Brain and central nervous system,Women,1994-1998,200,5.5,169,4.7
+Brain and central nervous system,Women,1999-2003,216,5.8,179,4.8
+Brain and central nervous system,Women,2004-2008,244,6.4,195,5.1
+Thyroid,,,,,,
+Thyroid,Men,,,,,
+Thyroid,Men,1984-1988,89,2.8,36,1.1
+Thyroid,Men,1989-1993,84,2.5,31,0.9
+Thyroid,Men,1994-1998,98,2.8,25,0.7
+Thyroid,Men,1999-2003,102,2.9,23,0.7
+Thyroid,Men,2004-2008,139,3.8,25,0.7
+Thyroid,Women,,,,,
+Thyroid,Women,1984-1988,200,6,68,2
+Thyroid,Women,1989-1993,220,6.3,57,1.6
+Thyroid,Women,1994-1998,275,7.6,52,1.4
+Thyroid,Women,1999-2003,299,8.1,49,1.3
+Thyroid,Women,2004-2008,381,10,39,1
+Hodgkin’s Lymphoma,,,,,,
+Hodgkin’s Lymphoma,Men,,,,,
+Hodgkin’s Lymphoma,Men,1984-1988,115,3.6,53,1.7
+Hodgkin’s Lymphoma,Men,1989-1993,109,3.3,42,1.3
+Hodgkin’s Lymphoma,Men,1994-1998,107,3.1,19,0.6
+Hodgkin’s Lymphoma,Men,1999-2003,115,3.2,14,0.4
+Hodgkin’s Lymphoma,Men,2004-2008,135,3.7,17,0.5
+Hodgkin’s Lymphoma,Women,,,,,
+Hodgkin’s Lymphoma,Women,1984-1988,79,2.4,39,1.2
+Hodgkin’s Lymphoma,Women,1989-1993,78,2.3,29,0.8
+Hodgkin’s Lymphoma,Women,1994-1998,85,2.3,13,0.4
+Hodgkin’s Lymphoma,Women,1999-2003,95,2.6,18,0.5
+Hodgkin’s Lymphoma,Women,2004-2008,98,2.6,14,0.4
+Non-Hodgkin’s Lymphoma,,,,,,
+Non-Hodgkin’s Lymphoma,Men,,,,,
+Non-Hodgkin’s Lymphoma,Men,1984-1988,491,15.5,216,6.8
+Non-Hodgkin’s Lymphoma,Men,1989-1993,576,17.4,258,7.8
+Non-Hodgkin’s Lymphoma,Men,1994-1998,659,19.1,270,7.8
+Non-Hodgkin’s Lymphoma,Men,1999-2003,678,19.2,274,7.7
+Non-Hodgkin’s Lymphoma,Men,2004-2008,750,20.4,261,7.1
+Non-Hodgkin’s Lymphoma,Women,,,,,
+Non-Hodgkin’s Lymphoma,Women,1984-1988,412,12.4,192,5.7
+Non-Hodgkin’s Lymphoma,Women,1989-1993,504,14.5,243,7
+Non-Hodgkin’s Lymphoma,Women,1994-1998,587,16.3,254,7
+Non-Hodgkin’s Lymphoma,Women,1999-2003,596,16.1,255,6.9
+Non-Hodgkin’s Lymphoma,Women,2004-2008,677,17.7,243,6.4
+Multiple Myeloma,,,,,,
+Multiple Myeloma,Men,,,,,
+Multiple Myeloma,Men,1984-1988,152,4.8,122,3.9
+Multiple Myeloma,Men,1989-1993,190,5.7,153,4.6
+Multiple Myeloma,Men,1994-1998,228,6.6,139,4
+Multiple Myeloma,Men,1999-2003,222,6.3,147,4.2
+Multiple Myeloma,Men,2004-2008,260,7.1,154,4.2
+Multiple Myeloma,Women,,,,,
+Multiple Myeloma,Women,1984-1988,153,4.6,128,3.8
+Multiple Myeloma,Women,1989-1993,181,5.2,140,4
+Multiple Myeloma,Women,1994-1998,188,5.2,153,4.2
+Multiple Myeloma,Women,1999-2003,226,6.1,145,3.9
+Multiple Myeloma,Women,2004-2008,219,5.7,151,3.9
+Leukemia,,,,,,
+Leukemia,Men,,,,,
+Leukemia,Men,1984-1988,438,13.8,285,9
+Leukemia,Men,1989-1993,439,13.2,293,8.8
+Leukemia,Men,1994-1998,445,12.9,269,7.8
+Leukemia,Men,1999-2003,510,14.4,261,7.4
+Leukemia,Men,2004-2008,530,14.4,288,7.8
+Leukemia,Women,,,,,
+Leukemia,Women,1984-1988,325,9.7,236,7.1
+Leukemia,Women,1989-1993,313,9,229,6.6
+Leukemia,Women,1994-1998,333,9.2,226,6.3
+Leukemia,Women,1999-2003,395,10.7,229,6.2
+Leukemia,Women,2004-2008,395,10.3,231,6
+Lymphatic leukemia,,,,,,
+Lymphatic leukemia,Men,,,,,
+Lymphatic leukemia,Men,1984-1988,240,7.6,120,3.8
+Lymphatic leukemia,Men,1989-1993,239,7.2,133,4
+Lymphatic leukemia,Men,1994-1998,239,6.9,114,3.3
+Lymphatic leukemia,Men,1999-2003,284,8,105,3
+Lymphatic leukemia,Men,2004-2008,288,7.8,107,2.9
+Lymphatic leukemia,Women,,,,,
+Lymphatic leukemia,Women,1984-1988,157,4.7,90,2.7
+Lymphatic leukemia,Women,1989-1993,149,4.3,102,2.9
+Lymphatic leukemia,Women,1994-1998,159,4.4,80,2.2
+Lymphatic leukemia,Women,1999-2003,205,5.5,84,2.3
+Lymphatic leukemia,Women,2004-2008,200,5.2,87,2.3
+ Myelogenous leukemia,,,,,,
+ Myelogenous leukemia,Men,,,,,
+ Myelogenous leukemia,Men,1984-1988,185,5.8,145,4.6
+ Myelogenous leukemia,Men,1989-1993,188,5.7,143,4.3
+ Myelogenous leukemia,Men,1994-1998,198,5.7,135,3.9
+ Myelogenous leukemia,Men,1999-2003,208,5.9,138,3.9
+ Myelogenous leukemia,Men,2004-2008,229,6.2,165,4.5
+ Myelogenous leukemia,Women,,,,,
+ Myelogenous leukemia,Women,1984-1988,159,4.8,132,4
+ Myelogenous leukemia,Women,1989-1993,154,4.4,115,3.3
+ Myelogenous leukemia,Women,1994-1998,164,4.5,128,3.6
+ Myelogenous leukemia,Women,1999-2003,178,4.8,131,3.5
+ Myelogenous leukemia,Women,2004-2008,184,4.8,129,3.4
+Other leukemia,,,,,,
+Other leukemia,Men,,,,,
+Other leukemia,Men,1984-1988,13,0.4,19,0.6
+Other leukemia,Men,1989-1993,11,0.3,17,0.5
+Other leukemia,Men,1994-1998,8,0.2,20,0.6
+Other leukemia,Men,1999-2003,18,0.5,19,0.5
+Other leukemia,Men,2004-2008,13,0.3,16,0.4
+Other leukemia,Women,,,,,
+Other leukemia,Women,1984-1988,9,0.3,14,0.4
+Other leukemia,Women,1989-1993,11,0.3,13,0.4
+Other leukemia,Women,1994-1998,11,0.3,17,0.5
+Other leukemia,Women,1999-2003,13,0.3,15,0.4
+Other leukemia,Women,2004-2008,11,0.3,15,0.4
+Others,,,,,,
+Others,Men,,,,,
+Others,Men,1984-1988,613,19.3,530,16.7
+Others,Men,1989-1993,690,20.8,535,16.1
+Others,Men,1994-1998,717,20.8,655,19
+Others,Men,1999-2003,728,20.6,688,19.5
+Others,Men,2004-2008,797,21.7,635,17.3
+Others,Women,,,,,
+Others,Women,1984-1988,634,19,585,17.5
+Others,Women,1989-1993,678,19.5,621,17.9
+Others,Women,1994-1998,767,21.2,677,18.7
+Others,Women,1999-2003,816,22.1,666,18
+Others,Women,2004-2008,913,23.9,,
